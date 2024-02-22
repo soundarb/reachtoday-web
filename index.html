@@ -1,123 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+		<title>Reach Toda Media</title>
+		
+		<!-- css -->
+		
+		<!--  google fonts  -->
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Reach Today Media</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+	</head>
+	<body onload="countdown(year,month,day,hour,minute)">
+		<div class="body-wrapper">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+			<!--   begin of header section   -->
+			<section class="header" id="overlay-1">
+				<div class="header-wrapper">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 text-center">
+								<div class="theme-name">
+									<a href="#" class="title">Reach Today Media</a>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<div class="header-text">
+									<p class="service-text">Our awesome products and services are</p>
+									<p class="coming">Coming Soon!</p>
+								</div>
+							</div>
+						</div>
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+						<!--  begin of counter  -->
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="numbers" id="count2"></div>
+							</div>
+							<div class="col-md-12 counter1 text-center" id="spacer1">
+								<div class="col-md-4 col-xs-3 col-sm-4 day numbers" id="dday"></div>
+								<div class="col-md-2 col-xs-3 col-sm-2 hr numbers" id="dhour"></div>
+								<div class="col-md-2 col-xs-3 col-sm-2 min numbers" id="dmin"></div>
+								<div class="col-md-4 col-xs-3 col-sm-4 sec numbers" id="dsec"></div>
+							</div>
+							<div class="col-md-12 counter2 text-center" id="spacer2">
+								<div class="col-md-4 col-xs-3 col-sm-4 day title" id="days">day</div>
+								<div class="col-md-2 col-xs-3 col-sm-2 hr title" id="hours">hr</div>
+								<div class="col-md-2 col-xs-3 col-sm-2 min title" id="minutes">min</div>
+								<div class="col-md-4 col-xs-3 col-sm-4 sec title" id="seconds">sec</div>
+							</div>
+						</div>
+						<!--  end of counter -->
+					</div> <!--  end of .container  -->
+				</div><!-- end of .header-wrapper  -->
+			</section>
+			<!--   end of header section     -->
 
-</head>
+			<!--   begin of newsletter section  -->
+			<section class="newsletter text-center">
+				<div class="newsletter-wrapper">
+					<div class="container">
+						<div class="row">
+							<h2 class="newsletter-text">subscribe and stay tuned with us</h2>
+							<div class="col-md-8 col-md-offset-2">
+								<form>
+	  								<div class="form-group">
+	    								<div class="input-group">
+	      									<div class="input-group-addon"><i class="fa fa-envelope-o"></i></div>
+	      									<input type="text" class="form-control" placeholder="Enter Your Email Here...">
+	    								</div>
+	    								<button class="subsribe-btn">Subscribe Now</button>
+	  								</div>
+								</form>
+								<p class="spam">
+									<i class="fa fa-bookmark"></i>We'll never spam you.
+								</p>
+							</div>
+						</div>
+					</div><!--  end of .container  -->
+				</div> <!--  end of .newssletter-wrapper  -->
+			</section>
+			<!--   end of newsletter section  -->
 
-<body>
+			<!--   begin of social-media section  -->
+			<section class="social-media text-center">
+				<div class="social-media-wrapper">
+					<div class="container">
+						<div class="row">
+							<h2 class="social-media-text">get updates from social media</h2>
+							<div class="col-md-8 col-md-offset-2">
+								<div class="social-links">
+									<a target="_blank" href="#" title="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+									<a target="_blank" href="#" title="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+									<a target="_blank" href="#" title="Google+">
+										<i class="fa fa-google-plus"></i>
+									</a>
+									<a target="_blank" href="#" title="Pinterest">
+										<i class="fa fa-pinterest"></i>
+									</a>
+									<a target="_blank" href="" title="Instagram">
+										<i class="fa fa-instagram"></i>
+									</a>
+								</div>
+							</div>
+							<div class="clear-fix"></div>
+						</div>
+					</div>
+				</div><!--  end of .social-media-wrapper  -->
+			</section>
+			<!--   end of social-media section   -->
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex flex-column align-items-center">
+			<!--   begin of footer  section  -->
+			<section class="footer">
+				<div class="footer-wrapper">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<p class="copy-right text-center">&copy; 2024 Reach Today Media. All rights reserved.</p>
+							</div>
+							<div class="col-md-6">
+								<p class="develop text-center">Developed by <a href="http://themewagon.com">Reach Today Labs</a></p>
+							</div>
+						</div>
+					</div>
+				</div><!--  end of .footer-wrapper  -->
+			</section>
+			<!--   end of footer section  -->
+		</div>
+		
+		<!--  js files -->
 
-      <h1>REACH TODAY MEDIA</h1>
-      <h2>We're working hard to improve our website and we'll ready to launch after</h2>
-      <div class="countdown d-flex justify-content-center" data-count="2024/06/06"/>
-        <div>
-          <h3>%d</h3>
-          <h4>Days</h4>
-        </div>
-        <div>
-          <h3>%h</h3>
-          <h4>Hours</h4>
-        </div>
-        <div>
-          <h3>%m</h3>
-          <h4>Minutes</h4>
-        </div>
-        <div>
-          <h3>%s</h3>
-          <h4>Seconds</h4>
-        </div>
-      </div>
-    </div>
-  </header><!-- End #header -->
-
-  <main id="main">
-
-    <!-- ======= Contact Us Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contact Us</h2>
-        </div>
-
-        <div class="row justify-content-center">
-
-          <div class="col-lg-10">
-
-            <div class="info-wrap">
-              <div class="row">
-                <div class="col-lg-4 info">
-                  <i class="bi bi-geo-alt"></i>
-                  <h4>Location:</h4>
-                  <p>F-69, 2nd Phase, 1st Floor<br>Spencer's Plaza, Mount Road<br>Chennai - 600002</p>
-                </div>
-
-                <div class="col-lg-4 info mt-4 mt-lg-0">
-                  <i class="bi bi-envelope"></i>
-                  <h4>Email:</h4>
-                  <p>info@reachtodaymedia.com<br>gopinathv@reachtodaymedia.com</p>
-                </div>
-
-                <div class="col-lg-4 info mt-4 mt-lg-0">
-                  <i class="bi bi-phone"></i>
-                  <h4>Call:</h4>
-                  <p>044 4320 7400<br>+91 955 1277 955</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-    </section><!-- End Contact Us Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Reach Today Media Pvt Ltd</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        </a>
-      </div>
-    </div>
-  </footer><!-- End #footer -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/timer.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	
+	</body>
 </html>
